@@ -17,6 +17,9 @@ MAN=sslh.8.gz	# man page name
 # End of configuration -- the rest should take care of
 # itself
 
+# user's custom settings, if any
+-include Makefile.user
+
 ifneq ($(strip $(COV_TEST)),)
     CFLAGS_COV=-fprofile-arcs -ftest-coverage
 endif

@@ -1,0 +1,7 @@
+# My Custom Configurations (overriding these in Makefile)
+
+USELIBCONFIG=1	# Use libconfig? (necessary to use configuration files)
+USELIBPCRE=1	# Use libpcre? (needed for regex on musl)
+USELIBWRAP=1	# Use libwrap?
+USELIBCAP=1		# Use libcap?
+
