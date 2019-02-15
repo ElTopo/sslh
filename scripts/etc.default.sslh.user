@@ -17,5 +17,5 @@ DAEMON=/usr/sbin/sslh
 
 # use command line options
 #DAEMON_OPTS="-n --transparent --user sslh --listen 0.0.0.0:6088 --ssh 127.0.0.2:22 --http 127.0.0.2:80 --pidfile /var/run/sslh/sslh.pid"
-# use .cfg
+# use .cfg, rename the .cfg file to sslh-<hostname>.cfg
 DAEMON_OPTS="-F/etc/sslh-user.cfg"
